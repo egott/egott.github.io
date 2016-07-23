@@ -3,9 +3,47 @@
   <head>
     <title>Labradors</title>
   </head>
+
   <body>
     <img src= "images/Puppies.png" alt= "Dog">
     <h1>Labrador Puppies</h1>
     <p>They are the cutest dogs on earth!</p>
+
+    <h2>Different kinds of labs</h2>
+      <ul>
+        <li>Yellow</li>
+        <li>Black</li>
+        <li>Chocolate</li>
+      </ul>
+    <p>If you want a Labrador puppy of your own, click <a href="http://www.adoptapet.com/s/labrador-puppies-and-dogs-for-sale">here!</a></p>
+
+  <form name="Dog qualities" action="success.html">
+    <fieldset>
+      <div>
+        <label>Dog color</label>
+        <select name="color">
+          <option value="Yellow">Yellow</option>
+          <option value="Black">Black</option>
+          <option value="Chocolate">Chocolate</option>
+        </select>
+      </div>
+
+      <div>
+        <label>Gender</label>
+        <select name="Gender">
+          <option value="Girl">Girl</option>
+          <option value="boy">Boy</option>
+        </select>
+      </div>
+
+      <div>
+        <label>Name of puppy</label>
+        <input type="text" name="dog-name" placeholder="Name of your future puppy">
+      </div>
+    </fieldset>
+
+    <button type="submit">Save these answers!</button>
+  </form>
+
   </body>
 </html>
