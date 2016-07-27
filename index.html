@@ -3,50 +3,58 @@
   <head>
     <title>Labradors</title>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link href='http://fonts.googleapis.com/css?family=Cookie' rel='stylesheet' type='text/css'>
   </head>
-
   <body>
-    <img src= "images/Puppies.png" alt= "Dog">
-    <h1>Labrador Puppies</h1>
-    <p>They are the cutest dogs on earth!</p>
-
+    <h1 class="big-title">Labrador Puppies</h1>
+    <nav>
+      <a href="http://www.akc.org/dog-breeds/labrador-retriever/">Info About Labs</a>
+      <a href="http://www.adoptapet.com/s/labrador-puppies-and-dogs-for-sale">Buy Your Own</a>
+      <a href="puppypics.html">Cute Pics</a></p>
+      <a href="http://www.animalplanet.com/tv-shows/dogs-101/videos/labrador-retriever/">Video</a>
+    </nav>
+  <main>
+    <section>
+      <img src= "images/Puppies.png" alt= "Dog" class="dog-pic">
+    </section>
+  <section class="types-of-labs ">
     <h2>Different kinds of labs</h2>
       <ul>
-        <li>Yellow</li>
-        <li>Black</li>
-        <li>Chocolate</li>
+        <li id="yellow">Yellow</li>
+        <li id="black">Black</li>
+        <li id="brown">Chocolate</li>
       </ul>
-    <p>If you want a Labrador puppy of your own, click <a href="http://www.adoptapet.com/s/labrador-puppies-and-dogs-for-sale">here!</a></p>
-
-    <p>To check out some other cool puppy stuff go <a href="puppypics.html">here.</a></p>
-
-  <form name="Dog qualities" action="success.html">
-    <fieldset>
-      <div>
-        <label>Dog color:</label>
-        <select name="color">
-          <option value="Yellow">Yellow</option>
-          <option value="Black">Black</option>
-          <option value="Chocolate">Chocolate</option>
-        </select>
-      </div>
-
-      <div>
+  </section>
+  <section class="form">
+    <h3 id="form-heading">Pick out your own dog!</h3>
+    <form name="Dog qualities" action="success.html">
+      <fieldset class="form-colors">
+        <div>
+          <label>Dog color:</label>
+          <select name="color">
+            <option value="Yellow" class="yellow">Yellow</option>
+            <option value="Black">Black</option>
+            <option value="Chocolate">Chocolate</option>
+          </select>
+        </div>
+        <div>
         <label>Gender</label>
         <select name="Gender:">
           <option value="Girl">Girl</option>
           <option value="boy">Boy</option>
         </select>
       </div>
-
       <div>
         <label>Name of puppy:</label>
         <input type="text" name="dog-name" placeholder="Name of your future puppy">
       </div>
     </fieldset>
-
-    <button type="submit">Save these answers!</button>
-  </form>
-
+    <button type="submit" id="button">Save these answers!</button>
+    </form>
+  </section>
+</main>
+<footer id="contact">
+  <p>If any additional information is needed about Labradors please contact me at 860-878-7256</p>
+</footer>
   </body>
 </html>
