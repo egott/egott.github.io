@@ -3,6 +3,9 @@
   color: pink;
   font: 400 100px/0.8 'Cookie', Helvetica, sans-serif;
 }
+body {
+   background-color:  #FFFAF0;
+}
 nav {
   text-align: center;
   font-size: 12px;
@@ -20,8 +23,7 @@ nav {
   font-weight: bold;
 }
 * {
- font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
- background-color:  #FFFAF0;
+ font-family:
 }
 .dog-pic {
   margin: auto;
@@ -44,7 +46,7 @@ nav {
   margin: 30px 800px 10px 0px;
 }
 .form-colors {
-  background-color: orange;
+  background-color: #F0F8FF;
 }
 #form-heading {
   margin: 0px 0px 10px 5px;
@@ -67,5 +69,10 @@ nav {
 }
 
 a:visited {
-  color: red;
+  color: #9932CC;
+}
+.types-of-labs h2 {
+  font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  font-weight: lighter;
+  margin: 10px 10px 0px 10px;
 }
