@@ -8,7 +8,7 @@ body {
 }
 nav {
   text-align: center;
-  font-size: 12px;
+  font-size: 15px;
   display: block;
   border-style: double;
   padding: 20px;
@@ -21,9 +21,10 @@ nav {
 }
 #button {
   font-weight: bold;
+  background-color: #F0F8FF;
 }
 * {
- font-family:
+ font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
 }
 .dog-pic {
   margin: auto;
@@ -67,9 +68,14 @@ nav {
   height: auto;
   width: 100%;
 }
-
+* {
+ font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
 a:visited {
   color: #9932CC;
+}
+a:hover {
+  color: #FFA500;
 }
 .types-of-labs h2 {
   font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
