@@ -1,0 +1,33 @@
+#cute-pics-header {
+  text-align: center;
+  color: pink;
+}
+
+body {
+  background-color: #E0FFFF;
+}
+
+nav {
+  text-align: center;
+  font-size: 15px;
+  display: block;
+  border-style: double;
+  padding: 20px;
+  margin: 20px 400px 20px 400px;
+  background-color: #FFFAF0
+}
+* {
+ font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+a:visited {
+  color: #9932CC;
+}
+a:hover {
+  color: #FFA500;
+}
+
+#contact {
+  font-size: 12px;
+  text-align: center;
+  margin-top: 100px;
+}
