@@ -1,10 +1,13 @@
 .big-title {
   text-align: center;
-  color: pink;
-  font: 400 100px/0.8 'Cookie', Helvetica, sans-serif;
+  color: #0066ff;
+  font-family: Georgia;
+  font-size: 60px;
+  text-shadow:5px 5px #cc99ff;
+
 }
 body {
-   background-color:  #FFFAF0;
+   background-image: url("images/stripes.png");
 }
 nav {
   text-align: center;
