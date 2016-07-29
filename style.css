@@ -19,6 +19,7 @@ nav {
   padding: 20px;
   margin: 20px;
   background-color: #F0F8FF;
+  color: #008000;
 }
 
 #form-heading {
@@ -220,3 +221,9 @@ font-size: 40px;
   font-family: "Avant Garde", Avantgarde, "Century Gothic",CenturyGothic, AppleGothic, sans-serif;
  font-size: 15px;
 }
+
+@media screen and (max-width: 1000px){
+  .dog-pic{
+    width: 100%;
+    margin: auto;
+  }
