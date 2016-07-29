@@ -64,7 +64,12 @@ nav {
 }
 
 #contact {
-  font-size: 1px;
+  font-size: 12px;
+  text-align: center;
+}
+
+#contact p {
+  font-size: 12px;
   text-align: center;
 }
 
