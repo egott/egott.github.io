@@ -4,6 +4,11 @@
   font-family: Georgia;
   font-size: 60px;
   text-shadow:5px 5px #cc99ff;
+  padding: 20px;
+  border-style: outset;
+  margin-right: 90px;
+  margin-left: 50px;
+
 
 }
 body {
@@ -12,17 +17,16 @@ body {
 nav {
   text-align: center;
   font-size: 15px;
-  display: block;
-  border-style: double;
   padding: 20px;
-  margin: 20px 400px 20px 400px;
+  margin: 20px;
   background-color: #F0F8FF;
-  max-width: 30%;
-  min-width: 30%;
 }
+
 #form-heading {
   font-size: 18px;
   margin: 10px 0px 2px 0px;
+  max-width: 40%;
+  min-width: 30%;
 }
 #button {
   font-weight: bold;
@@ -86,4 +90,12 @@ a:hover {
   font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
   font-weight: lighter;
   margin: 10px 10px 0px 10px;
+}
+
+@media screen and (max-width: 1000px)
+{
+  .big-title {
+    border-style: double;
+    color: #8B0000;
+  }
 }

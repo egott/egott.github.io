@@ -6,12 +6,18 @@
   margin-bottom: 80px;
 }
 
+.quotes p {
+  min-height: 90px;
+  min-width: 200px;
+}
+
 #quote1 {
   margin: 40px 900px 40px 1px;
   padding: 12px;
   border-radius: 25px;
   background-color: #E0FFFF;
 }
+
 #quote2 {
   margin: 10px 800px 40px 70px;
   padding: 16px;
@@ -33,18 +39,16 @@
 }
 
 body {
-  background-color: #E0FFFF;
   background-image: url("images/backgroundimage1.png");
 }
 
 footer nav {
   text-align: center;
   font-size: 15px;
-  display: block;
-  border-style: double;
   padding: 20px;
-  margin: 50px 500px 0px 400px;
+  margin: 20px;
   background-color: #F0F8FF;
+}
 }
 
 .contact p {
@@ -71,9 +75,26 @@ a:hover {
 }
 #picture {
   float: right;
-  height: 50x;
-  width: 50px;
   position: relative;
-  top: -500px;
+  top: -700px;
   left: -550px;
+  display: inline;
+  height: 50px;
+  width: 50px;
+}
+
+
+@media screen and (max-width: 950px)
+{
+  #picture {
+    display: block;
+  }
+  #quotes p {
+    margin: auto;
+    width: 100%;
+  }
+  body {
+    width: 100%;
+    margin: auto;
+  }
 }
