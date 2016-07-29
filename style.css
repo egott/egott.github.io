@@ -17,6 +17,8 @@ nav {
   padding: 20px;
   margin: 20px 400px 20px 400px;
   background-color: #F0F8FF;
+  max-width: 30%;
+  min-width: 30%;
 }
 #form-heading {
   font-size: 18px;
@@ -78,7 +80,7 @@ a:visited {
   color: #9932CC;
 }
 a:hover {
-  color: #FFA500;
+  color: #3333ff;
 }
 .types-of-labs h2 {
   font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
