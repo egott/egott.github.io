@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <title>Labradors</title>
     <link rel="stylesheet" type="text/css" href="style.css">
@@ -13,44 +13,42 @@
       <a href="http://www.adoptapet.com/s/labrador-puppies-and-dogs-for-sale">Buy Your Own</a>
     </nav>
   <main>
-    <section>
-      <img src= "images/Puppies.png" alt= "Dog" class="dog-pic">
+    <img src= "images/Puppies.png" alt= "Dog" class="dog-pic">
+    <section class="types-of-labs ">
+      <h2>Different kinds of labs</h2>
+        <ul>
+          <li id="yellow">Yellow</li>
+          <li id="black">Black</li>
+          <li id="brown">Chocolate</li>
+        </ul>
     </section>
-  <section class="types-of-labs ">
-    <h2>Different kinds of labs</h2>
-      <ul>
-        <li id="yellow">Yellow</li>
-        <li id="black">Black</li>
-        <li id="brown">Chocolate</li>
-      </ul>
-  </section>
-  <section class="form">
-    <h3 id="form-heading">Pick out your own dog!</h3>
-    <form name="Dog qualities" action="success.html">
-      <fieldset class="form-colors">
-        <div>
-          <label>Dog color:</label>
-          <select name="color">
-            <option value="Yellow">Yellow</option>
-            <option value="Black">Black</option>
-            <option value="Chocolate">Chocolate</option>
+    <section class="form">
+      <h3 id="form-heading">Pick out your own dog!</h3>
+      <form name="Dog qualities" action="success.html">
+        <fieldset class="form-colors">
+          <div>
+            <label>Dog color:</label>
+            <select name="color">
+              <option value="Yellow">Yellow</option>
+              <option value="Black">Black</option>
+              <option value="Chocolate">Chocolate</option>
+            </select>
+          </div>
+          <div>
+          <label>Gender</label>
+          <select name="Gender:">
+            <option value="Girl">Girl</option>
+            <option value="boy">Boy</option>
           </select>
         </div>
         <div>
-        <label>Gender</label>
-        <select name="Gender:">
-          <option value="Girl">Girl</option>
-          <option value="boy">Boy</option>
-        </select>
-      </div>
-      <div>
-        <label>Name of puppy:</label>
-        <input type="text" name="dog-name" placeholder="Name of your future puppy">
-      </div>
-    </fieldset>
-    <button type="submit" id="button">Save these answers!</button>
-    </form>
-  </section>
+          <label>Name of puppy:</label>
+          <input type="text" name="dog-name" placeholder="Name of your future puppy">
+        </div>
+      </fieldset>
+      <button type="submit" id="button">Save these answers!</button>
+      </form>
+    </section>
 </main>
 <footer id="contact">
   <p>If any additional information is needed about Labradors please contact me at 860-878-7256</p>

@@ -142,6 +142,11 @@ quotes-body {
   background-image: url("images/backgroundimage1.png");
 }
 
+cite {
+  display: block;
+  margin-top: 5px;
+}
+
 footer nav {
   text-align: center;
   font-size: 15px;
@@ -216,3 +221,4 @@ font-size: 40px;
     width: 100%;
     margin: auto;
 }
+  }
