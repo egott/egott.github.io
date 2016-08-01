@@ -145,6 +145,7 @@ quotes-body {
 cite {
   display: block;
   margin-top: 5px;
+  font-weight: bold;
 }
 
 footer nav {
